@@ -10,6 +10,104 @@ body {
   background-color: rgba(18, 31, 51, 0) !important;
 }
 
+.emailcontainer {
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  right: 40px;
+  color: #a8b2d1;
+}
+
+.emailcontainer div {
+  width: 100%;
+  margin: 0px auto;
+}
+
+.emailcontainer div .emailwrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+      align-items: center;
+  position: relative;
+}
+
+.emailcontainer div .emailwrapper .emaillink {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+      writing-mode: vertical-rl;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.emailcontainer div .emailwrapper a {
+  color: #64ffda;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+
+.emailwrapper::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  background-color: #a8b2d1;
+  margin: 0px auto;
+}
+
+.iconcontainer {
+  fill: #a8b2d1;
+  width: 50px;
+  position: fixed;
+  bottom: 0px;
+}
+
+.iconcontainer .iconwrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.iconcontainer .iconwrapper .icons {
+  padding: 20px;
+}
+
+.iconcontainer li {
+  list-style: none;
+  margin: 10px;
+}
+
+.iconcontainer li :hover {
+  fill: #64ffda;
+}
+
+.iconcontainer li :visited {
+  fill: #a8b2d1;
+}
+
+.navbar svg {
+  fill: #a8b2d1;
+}
+
+.navbar :hover {
+  fill: #64ffda;
+}
+
 .jumbotron {
   font-weight: 100;
   margin-top: 3em;

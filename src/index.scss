@@ -15,6 +15,89 @@ body {
   background-color: rgba(18, 31, 51, 0) !important;
 }
 
+.emailcontainer {
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  right: 40px;
+  color: rgb(168, 178, 209);
+  div {
+    width: 100%;
+    margin: 0px auto;
+
+    .emailwrapper {
+      display: flex;
+      flex-direction: column;
+      -webkit-box-align: center;
+      align-items: center;
+      position: relative;
+
+      .emaillink {
+        font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono",
+          "Lucida Console", Monaco, monospace;
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        -webkit-writing-mode: vertical-rl;
+        writing-mode: vertical-rl;
+        margin: 20px auto;
+        padding: 10px;
+      }
+      a {
+        color: $brightclr;
+        display: inline-block;
+        // text-decoration-skip-ink: auto;
+        position: relative;
+        cursor: pointer;
+        text-decoration: none;
+        transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+      }
+    }
+  }
+}
+
+.emailwrapper::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  background-color: rgb(168, 178, 209);
+  margin: 0px auto;
+}
+
+.iconcontainer {
+  fill: rgb(168, 178, 209);
+  width: 50px;
+  position: fixed;
+  bottom: 0px;
+  .iconwrapper {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    .icons {
+      padding: 20px;
+    }
+  }
+  li {
+    list-style: none;
+    margin: 10px;
+    :hover {
+      fill: $brightclr;
+    }
+    :visited {
+      fill: rgb(168, 178, 209);
+    }
+  }
+}
+
+.navbar {
+  svg {
+    fill: rgb(168, 178, 209);
+  }
+  :hover {
+    fill: $brightclr;
+  }
+}
+
 .jumbotron {
   font-weight: 100;
   margin-top: 3em;
