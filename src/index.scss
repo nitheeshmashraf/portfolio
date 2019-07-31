@@ -1,0 +1,53 @@
+$brightclr: rgb(100, 255, 218);
+
+body {
+  margin: 0;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(10, 25, 47) !important;
+}
+
+.zeroOpacity {
+  background-color: rgba(18, 31, 51, 0) !important;
+}
+
+.jumbotron {
+  font-weight: 100;
+  margin-top: 3em;
+  .contentwrapper {
+    color: aliceblue;
+  }
+  .introduction {
+    color: $brightclr;
+    font-size: 1.5em;
+  }
+  .name {
+    font-size: 4em;
+    font-weight: 600;
+    line-height: 0.8em;
+  }
+  .profession {
+    font-size: 1.5em;
+
+    .brightcolor {
+      color: $brightclr;
+    }
+    .career {
+      font-size: 2.5em;
+      span {
+        font-weight: 600 !important;
+      }
+    }
+  }
+  .aboutme {
+    p {
+      span {
+        color: rgba($color: #ffffff, $alpha: 0.35);
+      }
+    }
+  }
+}

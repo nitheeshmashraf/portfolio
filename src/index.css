@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0a192f !important;
+}
+
+.zeroOpacity {
+  background-color: rgba(18, 31, 51, 0) !important;
+}
+
+.jumbotron {
+  font-weight: 100;
+  margin-top: 3em;
+}
+
+.jumbotron .contentwrapper {
+  color: aliceblue;
+}
+
+.jumbotron .introduction {
+  color: #64ffda;
+  font-size: 1.5em;
+}
+
+.jumbotron .name {
+  font-size: 4em;
+  font-weight: 600;
+  line-height: 0.8em;
+}
+
+.jumbotron .profession {
+  font-size: 1.5em;
+}
+
+.jumbotron .profession .brightcolor {
+  color: #64ffda;
+}
+
+.jumbotron .profession .career {
+  font-size: 2.5em;
+}
+
+.jumbotron .profession .career span {
+  font-weight: 600 !important;
+}
+
+.jumbotron .aboutme p span {
+  color: rgba(255, 255, 255, 0.35);
+}
+/*# sourceMappingURL=index.css.map */
